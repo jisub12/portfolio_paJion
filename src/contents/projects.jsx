@@ -45,7 +45,7 @@ const Projects = () => {
                         </h2>
 
                         <p className="leading-5 text-slate-950 text-[12px] md:text-[16px] md:leading-7">
-                            우주 DDong 피하기 게임
+                            우주 똥 피하기 게임
                         </p>
 
                         <h3 className="py-[16px] text-[16px] font-bold">사용 스택</h3>
@@ -56,8 +56,9 @@ const Projects = () => {
                             <DiJavascript />
                         </div>
 
-                        <h3 className="py-[16px] text-[16px] font-bold">프로젝트 설명</h3>
+                        <h3 className="py-[16px] text-[16px] font-bold">주요 기능</h3>
                         <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
+                            {/* <li>Canvas 활용해서 구현</li> */}
                             <li>유저는 게임을 통해 토큰을 얻을 수 있다.</li>
                             <li>유저는 얻은 토큰으로 NFT를 구매할 수 있다.</li>
                             <li>유저는 구매한 NFT를 게임내 스킨으로 적용시킬 수 있다.(예정)</li>
