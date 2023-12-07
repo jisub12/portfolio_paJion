@@ -41,7 +41,7 @@ const Profile = () => {
         >
             <div className="w-[280px] md:w-[28%] ">
                 <img
-                    src="./logo192.png"
+                    src="/jisub_photo.jpeg"
                     aria-hidden
                     alt="profile image"
                     className="w-[100vw] m-auto rounded-full border-2 border-slate-500"
@@ -49,26 +49,26 @@ const Profile = () => {
             </div>
             <div className="w-[100%] box-border md:w-[70%] md:p-[10px] ">
                 <Hero>
-                    곽인구 <span className="text-[16px] text-slate-400 font-normal">web7722</span>
+                    황지섭 <span className="text-[16px] text-slate-400 font-normal">paJion</span>
                 </Hero>
                 <p className="text-slate-700 pt-[5px] md:text-[24px] md:pt-[10px] text-[16px]">
-                    아주 작은 개발자가 될거야
+                    꾸준함 세계 1등 개발자
                 </p>
                 <p className="flex flex-col text-[16px] items-left pt-[7px] md:pt-[5px] md:text-[14px]">
-                    <a href="mailto:web7722@gmail.com" className="flex items-center gap-[5px] text-slate-600">
+                    <a href="mailto:jisub11@nate.com" className="flex items-center gap-[5px] text-slate-600">
                         <TfiEmail />
-                        web7722@gmail.com
+                        jisub11@nate.com
                     </a>
                     <a
-                        href="https://github.com/ingoo-blockchain?tab=repositories"
+                        href="https://github.com/jisub12"
                         className="flex items-center gap-[5px] text-slate-600"
                     >
                         <IoLogoGithub />
-                        ingoo-blockchain
+                        jisub12
                     </a>
-                    <a href="https://tistory.com" className="flex items-center gap-[5px] text-slate-600">
+                    <a href="https://blog.naver.com/jisub44" className="flex items-center gap-[5px] text-slate-600">
                         <FaBlogger />
-                        blog...
+                        blog
                     </a>
                 </p>
             </div>
