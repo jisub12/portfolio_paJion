@@ -41,7 +41,7 @@ const Profile = () => {
         >
             <div className="w-[280px] md:w-[28%] ">
                 <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ46OGp74qW6aKXJJYfhbfYniV48BQIVpWHUpDZMzzbg&s"
+                    src={process.env.PUBLIC_URL+'/jisub_photo.jpeg'}
                     aria-hidden
                     alt="profile image"
                     className="w-[100vw] m-auto rounded-full border-2 border-slate-500"

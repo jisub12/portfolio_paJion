@@ -18,9 +18,9 @@ const Projects = () => {
                 <li className="flex flex-col gap-[32px] md:flex-row">
                     <div className="w-full md:w-[420px] ">
                         <img
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ46OGp74qW6aKXJJYfhbfYniV48BQIVpWHUpDZMzzbg&s"
+                            src={process.env.PUBLIC_URL+'/spaceddong.png'}
                             className="w-full"
-                            alt="DEX거래소"
+                            alt="spaceGame"
                         />
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
                             <li className="text-[16px]">개인 프로젝트</li>
@@ -61,7 +61,7 @@ const Projects = () => {
                             {/* <li>Canvas 활용해서 구현</li> */}
                             <li>유저는 게임을 통해 토큰을 얻을 수 있다.</li>
                             <li>유저는 얻은 토큰으로 NFT를 구매할 수 있다.</li>
-                            <li>유저는 구매한 NFT를 게임내 스킨으로 적용시킬 수 있다.(예정)</li>
+                            <li>유저는 구매한 NFT를 게임내 스킨으로 적용시킬 수 있다.(구현중)</li>
                         </ul>
                     </div>
                 </li>
@@ -74,7 +74,7 @@ const Projects = () => {
                 <li className="flex flex-col gap-[32px] md:flex-row">
                     <div className="w-full md:w-[420px] ">
                         <img
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ46OGp74qW6aKXJJYfhbfYniV48BQIVpWHUpDZMzzbg&s"
+                            src={process.env.PUBLIC_URL+'/BounsDEX.png'}
                             className="w-full"
                             alt="DEX거래소"
                         />
@@ -127,9 +127,9 @@ const Projects = () => {
                 <li className="flex flex-col gap-[32px] md:flex-row">
                     <div className="w-full md:w-[420px] ">
                         <img
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ46OGp74qW6aKXJJYfhbfYniV48BQIVpWHUpDZMzzbg&s"
+                            src={process.env.PUBLIC_URL+'/steam100.png'}
                             className="w-full"
-                            alt="어떤어떤 프로젝트"
+                            alt="steam100"
                         />
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
                             <li className="text-[16px]">팀플 프로젝트 (3명)</li>
@@ -179,7 +179,7 @@ const Projects = () => {
                 <li className="flex flex-col gap-[32px] md:flex-row">
                     <div className="w-full md:w-[420px] ">
                         <img
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ46OGp74qW6aKXJJYfhbfYniV48BQIVpWHUpDZMzzbg&s"
+                            src={process.env.PUBLIC_URL+'/market.png'}
                             className="w-full"
                             alt="중고거래 게시판"
                         />

@@ -1,5 +1,5 @@
 import { Wrapper, Heading } from '../components/common'
-import { DiJavascript, DiNodejs, DiGithubBadge } from 'react-icons/di'
+import { DiJavascript, DiNodejs, DiGithubBadge, DiAws } from 'react-icons/di'
 import { SiNextdotjs, SiTypescript, SiJavascript, SiExpress, SiReact, SiSolidity, SiRemix } from 'react-icons/si'
 
 const Skills = () => {
@@ -18,8 +18,8 @@ const Skills = () => {
                                 <span className="md:w-[120px]">Javascript</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>Canvas를 활용한 개인 프로젝트 경험</li>
-                                <li>Javascript를 활용한 팀 & 개인 프로젝트 경험</li>
+                                <li>아는 게 적을수록 코드가 길어지고, 지식이 늘어날수록 코드가 짧아진다는 것을 몸으로 깨달았다.</li>
+                                <li>html 화면 렌더링 순서의 중요성을 꺠닫게 되었다.</li>
                             </ul>
                         </li>
 
@@ -95,7 +95,24 @@ const Skills = () => {
                                 <span className="md:w-[120px]">Express</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>Emart Exprees는 먼지 앎!!</li>
+                                <li>!!!!</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li className="flex flex-row gap-[32px] py-[32px]">
+                    <h3 className="text-[16px] md:text-[24px] font-extrabold md:font-semibold w-[20%] basisc-[25%]">
+                        etc
+                    </h3>
+                    <ul className="flex flex-col gap-[16px] text-[16px] pb-[32px] font-medium w-full items-start">
+                        <li className="flex flex-col gap-[8px] md:gap-[32px] md:flex-row items-baseline">
+                            <span className="text-[16px] text-slate-600 md:text-[24px] basis-[20%] flex items-center gap-[8px]">
+                                <DiAws />
+                                <span className="md:w-[120px]">배포</span>
+                            </span>
+                            <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
+                                <li>Lotto, crossfit 파운드 계산기 배포 및 1~2달 운영 경험</li>
+                                <li>SEO에 관해 공부했으며, 카카오 에드핏을 통한 수익 창출 경험</li>
                             </ul>
                         </li>
                     </ul>
