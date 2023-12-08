@@ -1,6 +1,6 @@
 import { Wrapper, Heading } from '../components/common'
 import { DiJavascript, DiNodejs, DiGithubBadge, DiAws } from 'react-icons/di'
-import { SiNextdotjs, SiTypescript, SiJavascript, SiExpress, SiReact, SiSolidity, SiRemix } from 'react-icons/si'
+import { SiNextdotjs, SiTypescript, SiJavascript, SiExpress, SiReact, SiSolidity, SiRemix, SiCloudfoundry } from 'react-icons/si'
 
 const Skills = () => {
     return (
@@ -38,7 +38,7 @@ const Skills = () => {
                                 <span className="md:w-[120px]">Solidity</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>왜 Remix와 hardhat을 함께 사용하는 지에 대해 알게 되었다.</li>
+                                <li>왜 Remix와 hardhat을 함께 사용해야하는 지에 대해 알게 되었다.</li>
                                 <li>toWei를 쓰는 이유와 솔리디티 코드 안에서 값을 다루는 방법에 대해 익혔다.</li>
                                 <li>프론트와 어떻게 상호작용하며 값을 주고 받는 지에 대해 깨달았다.</li>
                                 <li>DEX거래소를 공부하며 CA간 유기적인 아키텍쳐 설계 방법을 익혔다.</li>
@@ -47,7 +47,7 @@ const Skills = () => {
                     </ul>
                 </li>
 
-                {/* <li className="flex flex-row gap-[32px] py-[32px]">
+                <li className="flex flex-row gap-[32px] py-[32px]">
                     <h3 className="text-[16px] md:text-[24px] font-extrabold md:font-semibold w-[20%] basisc-[25%]">
                         블록체인
                     </h3>
@@ -58,11 +58,22 @@ const Skills = () => {
                                 <span className="md:w-[120px]">Remix</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>Remix를 활용한 개인 & 팀 프로젝트 경험</li>
+                                <li>라이브러리를 사용하면 코드가 편해진다는 것을 깨달았다.</li>
+                                <li>Remix의 장점과 단점에 대해 알고 있다.</li>
+                                <li>질문 받고 싶은 것 위주로 적자.. 공부해서 최대한 많이 채워넣어보자..</li>
                             </ul>
                         </li>
+                        {/* <li className="flex flex-col gap-[8px] md:gap-[32px] md:flex-row items-baseline">
+                            <span className="text-[16px] text-slate-600 md:text-[24px] basis-[20%] flex items-center gap-[8px]">
+                                <SiCloudfoundry />
+                                <span className="md:w-[120px]">Remix</span>
+                            </span>
+                            <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
+                                <li>Remix를 활용한 개인 & 팀 프로젝트 경험</li>
+                            </ul>
+                        </li> */}
                     </ul>
-                </li> */}
+                </li>
 
                 <li className="flex flex-row gap-[32px] py-[32px]">
                     <h3 className="text-[16px] md:text-[24px] font-extrabold md:font-semibold w-[20%] basisc-[25%]">
