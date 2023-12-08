@@ -77,6 +77,7 @@ const Skills = () => {
                                 <li>React를 활용한 팀 & 개인 프로젝트 경험</li>
                                 <li>React 디렉토리 구조 설계 경험..?</li>
                                 <li>제대로 설명할 수 있는 게 엄음..</li>
+                                <li>보충하겠습니다..</li>
                                 {/* <li>브라우저 랜더링 과정을 설명 할 수 있음!</li> */}
                             </ul>
                         </li>
@@ -95,7 +96,7 @@ const Skills = () => {
                                 <span className="md:w-[120px]">Express</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>!!!!</li>
+                                <li>채워넣겠습니다..</li>
                             </ul>
                         </li>
                     </ul>
