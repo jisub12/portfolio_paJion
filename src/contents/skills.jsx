@@ -30,6 +30,7 @@ const Skills = () => {
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
                                 <li>interface를 작성하고 적용해보며 여러가지 type들을 다루는 방법을 익혔다.</li>
+                                <li>type 오류들을 겪으며 타입들의 생김새에 대해 자세히 알게 되었다.</li>
                             </ul>
                         </li>
                         <li className="flex flex-col gap-[8px] md:gap-[32px] md:flex-row items-baseline">
@@ -58,8 +59,8 @@ const Skills = () => {
                                 <span className="md:w-[120px]">Remix</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>라이브러리를 사용하면 코드가 편해진다는 것을 깨달았다.</li>
-                                <li>Remix의 장점과 단점에 대해 알고 있다.</li>
+                                <li>라이브러리를 왜 사용하는 지에 대해 깨닫게 되었다.</li>
+                                <li>Remix의 장점과 단점을 몸으로 느꼈다.</li>
                                 <li>질문 받고 싶은 것 위주로 적자.. 공부해서 최대한 많이 채워넣어보자..</li>
                             </ul>
                         </li>
