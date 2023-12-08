@@ -19,7 +19,7 @@ const Skills = () => {
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
                                 <li>아는 게 적을수록 코드가 길어지고, 지식이 늘어날수록 코드가 짧아진다는 것을 몸으로 깨달았다.</li>
-                                <li>html 화면 렌더링 순서의 중요성을 꺠닫게 되었다.</li>
+                                <li>무수한 오류들을 겪어내며 코드의 순서가 매우매우 중요하다는 것을 느꼈다.</li>
                             </ul>
                         </li>
 
@@ -29,7 +29,7 @@ const Skills = () => {
                                 <span className="md:w-[120px]">Typescript</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>기업 협약 팀 프로젝트 경험</li>
+                                <li>interface를 작성하고 적용해보며 여러가지 type들을 다루는 방법을 익혔다.</li>
                             </ul>
                         </li>
                         <li className="flex flex-col gap-[8px] md:gap-[32px] md:flex-row items-baseline">
@@ -38,15 +38,16 @@ const Skills = () => {
                                 <span className="md:w-[120px]">Solidity</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>ERC20과 ERC721을 활용한 개인 & 팀 프로젝트 경험</li>
-                                <li>Remix를 활용한 개인 & 팀 프로젝트 경험</li>
-                                <li>Hardhat, Ipfs 사용 경험</li>
+                                <li>왜 Remix와 hardhat을 함께 사용하는 지에 대해 알게 되었다.</li>
+                                <li>toWei를 쓰는 이유와 솔리디티 코드 안에서 값을 다루는 방법에 대해 익혔다.</li>
+                                <li>프론트와 어떻게 상호작용하며 값을 주고 받는 지에 대해 깨달았다.</li>
+                                <li>DEX거래소를 공부하며 CA간 유기적인 아키텍쳐 설계 방법을 익혔다.</li>
                             </ul>
                         </li>
                     </ul>
                 </li>
 
-                <li className="flex flex-row gap-[32px] py-[32px]">
+                {/* <li className="flex flex-row gap-[32px] py-[32px]">
                     <h3 className="text-[16px] md:text-[24px] font-extrabold md:font-semibold w-[20%] basisc-[25%]">
                         블록체인
                     </h3>
@@ -61,7 +62,7 @@ const Skills = () => {
                             </ul>
                         </li>
                     </ul>
-                </li>
+                </li> */}
 
                 <li className="flex flex-row gap-[32px] py-[32px]">
                     <h3 className="text-[16px] md:text-[24px] font-extrabold md:font-semibold w-[20%] basisc-[25%]">
@@ -74,9 +75,9 @@ const Skills = () => {
                                 <span className="md:w-[120px]">React</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>React를 활용한 팀 & 개인 프로젝트 경험</li>
+                                {/* <li>React를 활용한 팀 & 개인 프로젝트 경험</li>
                                 <li>React 디렉토리 구조 설계 경험..?</li>
-                                <li>제대로 설명할 수 있는 게 엄음..</li>
+                                <li>제대로 설명할 수 있는 게 엄음..</li> */}
                                 <li>보충하겠습니다..</li>
                                 {/* <li>브라우저 랜더링 과정을 설명 할 수 있음!</li> */}
                             </ul>
@@ -112,7 +113,7 @@ const Skills = () => {
                                 <span className="md:w-[120px]">배포</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>Lotto, crossfit 파운드 계산기 배포 및 1~2달 운영 경험</li>
+                                <li>Lotto, crossfit 파운드 계산기 원페이지 사이트 배포 및 운영 경험</li>
                                 <li>SEO에 관해 공부했으며, 카카오 에드핏을 통한 수익 창출 경험</li>
                             </ul>
                         </li>
