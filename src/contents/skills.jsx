@@ -61,7 +61,7 @@ const Skills = () => {
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
                                 <li>라이브러리를 왜 사용하는 지에 대해 깨닫게 되었습니다.</li>
                                 <li>Remix의 장점과 단점을 몸으로 느꼈습니다.</li>
-                                <li>질문 받고 싶은 것 위주로 적자.. 공부해서 최대한 많이 채워넣어보자..</li>
+                                {/* <li>질문 받고 싶은 것 위주로 적자.. 공부해서 최대한 많이 채워넣어보자..</li> */}
                             </ul>
                         </li>
                         {/* <li className="flex flex-col gap-[8px] md:gap-[32px] md:flex-row items-baseline">
