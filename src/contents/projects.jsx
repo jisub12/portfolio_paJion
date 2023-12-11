@@ -5,10 +5,17 @@ import { SiHtml5, SiNextdotjs, SiNotion, SiPlaycanvas, SiSolidity, SiTailwindcss
 import { DiReact } from 'react-icons/di'
 import useModal from '../hooks/useModal'
 import Modal from '../components/modal'
+import ReactPlayer from 'react-player'
 
 const Projects = () => {
     const [isShowingModal, toggleModal] = useModal()
     const [isShowingModal2, toggleModal2] = useModal()
+    const [isShowingModal3, toggleModal3] = useModal()
+    // const [isShowingModal4, toggleModal4] = useModal()
+    const videoUrl1 = process.env.PUBLIC_URL + '/spaceVideo.mov'
+    const videoUrl2 = process.env.PUBLIC_URL + '/dexVideo.mp4'
+    const videoUrl3 = process.env.PUBLIC_URL + '/steam100.mp4'
+    // const videoUrl4 = process.env.PUBLIC_URL + '/spaceVideo.mp4'
 
     return (
         <Wrapper>
@@ -17,11 +24,7 @@ const Projects = () => {
                 {/* 첫 번째 프로젝트 */}
                 <li className="flex flex-col gap-[32px] md:flex-row">
                     <div className="w-full md:w-[420px] ">
-                        <img
-                            src={process.env.PUBLIC_URL+'/spaceddong.png'}
-                            className="w-full"
-                            alt="spaceGame"
-                        />
+                        <img src={process.env.PUBLIC_URL + '/spaceddong.png'} className="w-full" alt="spaceGame" />
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
                             <li className="text-[16px]">개인 프로젝트</li>
                             <li className="text-stone-500">2023. 04. 05 ~ 현재</li>
@@ -39,7 +42,7 @@ const Projects = () => {
                     <div className="w-full">
                         <h2 className="flex flex-row items-center gap-[8px] text-[16px] text-slate-800 md:text-black md:text-[24px] font-semibold pb-[16px]">
                             블록체인 2D 게임{' '}
-                            <a href="https://blog.naver.com/jisub44/223285457515">
+                            <a href="https://github.com/jisub12/SpaceDDongGame">
                                 <FaExternalLinkAlt />
                             </a>
                         </h2>
@@ -58,7 +61,7 @@ const Projects = () => {
 
                         <h3 className="py-[16px] text-[16px] font-bold">주요 기능</h3>
                         <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
-                            {/* <li>Canvas 활용해서 구현</li> */}
+                            {/* <li>Javascript와 Canvas만 활용해서 구현</li> */}
                             <li>유저는 게임을 통해 토큰을 얻을 수 있다.</li>
                             <li>유저는 얻은 토큰으로 NFT를 구매할 수 있다.</li>
                             <li>유저는 구매한 NFT를 게임내 스킨으로 적용시킬 수 있다.(구현중)</li>
@@ -73,18 +76,14 @@ const Projects = () => {
                 {/* 첫 번째 프로젝트 */}
                 <li className="flex flex-col gap-[32px] md:flex-row">
                     <div className="w-full md:w-[420px] ">
-                        <img
-                            src={process.env.PUBLIC_URL+'/BounsDEX.png'}
-                            className="w-full"
-                            alt="DEX거래소"
-                        />
+                        <img src={process.env.PUBLIC_URL + '/BounsDEX.png'} className="w-full" alt="DEX거래소" />
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
                             <li className="text-[16px]">팀플 프로젝트 (5명)</li>
                             <li className="text-stone-500">2023. 10. 23 ~ 2023. 12. 05</li>
                             <li>Contract & FrontEnd</li>
                             <li>
                                 <button
-                                    onClick={toggleModal}
+                                    onClick={toggleModal2}
                                     className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
                                 >
                                     상세보기
@@ -126,11 +125,7 @@ const Projects = () => {
                 {/* 두 번째 프로젝트 */}
                 <li className="flex flex-col gap-[32px] md:flex-row">
                     <div className="w-full md:w-[420px] ">
-                        <img
-                            src={process.env.PUBLIC_URL+'/steam100.png'}
-                            className="w-full"
-                            alt="steam100"
-                        />
+                        <img src={process.env.PUBLIC_URL + '/steam100.png'} className="w-full" alt="steam100" />
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
                             <li className="text-[16px]">팀플 프로젝트 (3명)</li>
                             <li className="text-stone-500">2023. 08. 07 ~ 2023. 08. 25</li>
@@ -138,7 +133,7 @@ const Projects = () => {
                             <li>
                                 <button
                                     className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
-                                    onClick={toggleModal2}
+                                    onClick={toggleModal3}
                                 >
                                     상세보기
                                 </button>
@@ -178,29 +173,25 @@ const Projects = () => {
                 {/* 세 번째 프로젝트 */}
                 <li className="flex flex-col gap-[32px] md:flex-row">
                     <div className="w-full md:w-[420px] ">
-                        <img
-                            src={process.env.PUBLIC_URL+'/market.png'}
-                            className="w-full"
-                            alt="중고거래 게시판"
-                        />
+                        <img src={process.env.PUBLIC_URL + '/market.png'} className="w-full" alt="중고거래 게시판" />
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
                             <li className="text-[16px]">팀플 프로젝트 (3명)</li>
                             <li className="text-stone-500">2023. 06. 05 ~ 2023. 06. 26</li>
                             <li>Front-end & Back-end</li>
-                            <li>
+                            {/* <li>
                                 <button
                                     onClick={toggleModal}
                                     className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
                                 >
                                     상세보기
                                 </button>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     <div className="w-full">
                         <h2 className="flex flex-row items-center gap-[8px] text-[16px] text-slate-800 md:text-black md:text-[24px] font-semibold pb-[16px]">
                             동네별로 구역을 나눠서 볼 수 있는 중고거래 게시판{' '}
-                            <a href="https://blog.naver.com/jisub44/223285457515">
+                            <a href="https://blog.naver.com/jisub44/223138868607">
                                 <FaExternalLinkAlt />
                             </a>
                         </h2>
@@ -228,15 +219,22 @@ const Projects = () => {
                     </div>
                 </li>
             </ul>
-            
 
             <Modal show={isShowingModal} onCloseButtonClick={toggleModal}>
-                test
+                <ReactPlayer url={videoUrl1} playing={true} controls={true} />
             </Modal>
 
             <Modal show={isShowingModal2} onCloseButtonClick={toggleModal2}>
-                test2222
+                <ReactPlayer url={videoUrl2} playing={true} controls={true} />
             </Modal>
+
+            <Modal show={isShowingModal3} onCloseButtonClick={toggleModal3}>
+                <ReactPlayer url={videoUrl3} playing={true} controls={true} />
+            </Modal>
+
+            {/* <Modal show={isShowingModal4} onCloseButtonClick={toggleModal4}>
+                <ReactPlayer url={videoUrl4} playing={true} controls={true} />
+            </Modal> */}
         </Wrapper>
     )
 }
