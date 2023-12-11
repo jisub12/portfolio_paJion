@@ -76,7 +76,7 @@ const Skills = () => {
                     </ul>
                 </li>
 
-                {/* <li className="flex flex-row gap-[32px] py-[32px]">
+                <li className="flex flex-row gap-[32px] py-[32px]">
                     <h3 className="text-[16px] md:text-[24px] font-extrabold md:font-semibold w-[20%] basisc-[25%]">
                         프론트 앤드
                     </h3>
@@ -87,16 +87,14 @@ const Skills = () => {
                                 <span className="md:w-[120px]">React</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>React를 활용한 팀 & 개인 프로젝트 경험</li>
-                                <li>React 디렉토리 구조 설계 경험..?</li>
-                                <li>제대로 설명할 수 있는 게 엄음..</li>
-                                <li>보충하겠습니다..</li>
-                                <li>브라우저 랜더링 과정을 설명 할 수 있음!</li>
+                                <li>React에 web3,contract를 가져와 Staking기능을 화면에 입혀본 경험이 있습니다.</li>
+                                <li>React 디렉토리 구조를 설계해본 경험이 있습니다.</li>
+                                <li>React의 장점에 대해 이해하고 있습니다.</li>
                             </ul>
                         </li>
 
                     </ul>
-                </li> */}
+                </li>
 
                 {/* <li className="flex flex-row gap-[32px] py-[32px]">
                     <h3 className="text-[16px] md:text-[24px] font-extrabold md:font-semibold w-[20%] basisc-[25%]">
