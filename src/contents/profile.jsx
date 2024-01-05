@@ -1,7 +1,7 @@
 import { Hero } from '../components/common'
 import { IoLogoGithub } from 'react-icons/io'
 import { TfiEmail } from 'react-icons/tfi'
-import { FaBlogger } from 'react-icons/fa6'
+import { FaBlogger, FaPhone } from 'react-icons/fa6'
 import { useState, useRef, useEffect } from 'react'
 
 const Profile = () => {
@@ -41,7 +41,7 @@ const Profile = () => {
         >
             <div className="w-[280px] md:w-[28%] ">
                 <img
-                    src={process.env.PUBLIC_URL+'/jisub_photo.jpeg'}
+                    src={process.env.PUBLIC_URL + '/jisub_photo.jpeg'}
                     aria-hidden
                     alt="profile image"
                     className="w-[100vw] m-auto rounded-full border-2 border-slate-500"
@@ -55,20 +55,37 @@ const Profile = () => {
                     꾸준함 세계 1등 개발자
                 </p>
                 <p className="flex flex-col text-[16px] items-left pt-[7px] md:pt-[5px] md:text-[14px]">
-                    <a href="mailto:jisub11@nate.com" className="flex items-center gap-[5px] text-slate-600">
+                    <a
+                        target="_blink"
+                        href="https://blog.naver.com/jisub44"
+                        className="flex items-center gap-[5px] text-slate-600 mr-[20px]"
+                    >
+                        <FaPhone />
+                        010-2057-9477
+                    </a>
+                    <a
+                        target="_blink"
+                        href="mailto:jisub11@nate.com"
+                        className="flex items-center gap-[5px] text-slate-600"
+                    >
                         <TfiEmail />
                         jisub11@nate.com
                     </a>
                     <a
+                        target="_blink"
                         href="https://github.com/jisub12"
                         className="flex items-center gap-[5px] text-slate-600"
                     >
                         <IoLogoGithub />
-                        jisub12
+                        https://github.com/jisub12
                     </a>
-                    <a href="https://blog.naver.com/jisub44" className="flex items-center gap-[5px] text-slate-600">
+                    <a
+                        target="_blink"
+                        href="https://blog.naver.com/jisub44"
+                        className="flex items-center gap-[5px] text-slate-600"
+                    >
                         <FaBlogger />
-                        blog
+                        https://blog.naver.com/jisub44
                     </a>
                 </p>
             </div>

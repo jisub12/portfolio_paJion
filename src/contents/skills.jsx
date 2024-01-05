@@ -124,7 +124,7 @@ const Skills = () => {
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
                                 <li>Lotto, crossfit 파운드 계산기 원페이지 사이트 배포 및 운영 경험</li>
-                                <li>SEO에 관해 공부했으며, 카카오 에드핏을 통한 수익 창출 경험</li>
+                                <li>SEO에 관한 공부, 카카오 에드핏을 통한 수익 창출 경험</li>
                             </ul>
                         </li>
                     </ul>
