@@ -100,9 +100,8 @@ export default function SpaceGame() {
                         1. NFT 구매가 한 번에 클릭만으로 빠르고 자연스럽게 이루어지게 개선 <br />
                         2. 같은 NFT가 중복으로 올라가지는 현상 개선 필요 <br />
                         3. 랭킹에 대한 보상 개선 필요 <br />
-                        4. 스킨을 게임안에 입히는 기능 <br />
+                        4. 구입한 NFT를 게임안에 입히는 기능 <br />
                         5. 전체적인 토크노믹스 개선 필요 (사용처가 부족 인플레이션 우려) <br />
-                        
                     </div>
                     <br />
                     <br />
@@ -118,7 +117,7 @@ export default function SpaceGame() {
                     </div>
                     <br />
                     <br />
-                    <h1 className="font-bold text-xl">진행하며 어려웠던 부분 & 느낀점</h1>
+                    <h1 className="font-bold text-xl">열정에서 현실로 (진행하며 어려웠던 부분 & 느낀점)</h1>
                     <div className="w-full h-[536px]">
                         <Swiper
                             slidesPerView={1}
@@ -165,7 +164,7 @@ export default function SpaceGame() {
                     </div>
                     <br />
                     <br />
-                    <h2 className="font-bold text-xl">또 다른 관련 프로젝트 시행착오 기록 링크</h2>
+                    <h2 className="font-bold text-xl">열정에서 현실로 (프로젝트 시행착오 기록 링크)</h2>
                     <br />
                     <a
                         target="_blink"
@@ -200,6 +199,13 @@ export default function SpaceGame() {
                     </a>
                     <br />
                     <br />
+                    <h2 className="font-bold text-xl">열정에서 현실로 (하고 싶은 말)</h2>
+                    <div>
+                        학원에서 배운 내용 정리 다 하고 남는 시간마다 꾸준히 개발해 왔습니다. <br />
+                        부디 예쁘게 봐주시면 진심으로 감사드리겠습니다.
+                    </div>
+                    <br />
+                    <br />
                     <h2 className="font-bold text-xl">Github 주소</h2>
                     <br />
                     <a
@@ -209,6 +215,19 @@ export default function SpaceGame() {
                     >
                         - 우주 똥 피하기 게임 깃 허브 링크 (Click)
                     </a>
+                    <br />
+                    <br />
+                    <h2 className="font-bold text-xl">직접 해보러 가기</h2>
+                    <br />
+                    <a
+                        target="_blink"
+                        href="https://github.com/jisub12/SpaceDDongGame"
+                        className="flex items-center gap-[5px] text-slate-600 mr-[20px]"
+                    >
+                        - 우주 똥 피하기 게임하러 가기 (Click)
+                    </a>
+                    <br />
+                    <br />
                 </div>
             </div>
         </>
