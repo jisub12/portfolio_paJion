@@ -61,6 +61,7 @@ const Skills = () => {
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
                                 <li>라이브러리를 왜 사용하는 지에 대해 깨닫게 되었습니다.</li>
                                 <li>Remix의 장점과 단점을 몸으로 느꼈습니다.</li>
+                                <li>Remix로만 모든 테스트를 진행하는 것은 한계가 있다는 것을 꺠닫게 되었습니다.</li>
                                 {/* <li>질문 받고 싶은 것 위주로 적자.. 공부해서 최대한 많이 채워넣어보자..</li> */}
                             </ul>
                         </li>
@@ -123,8 +124,8 @@ const Skills = () => {
                                 <span className="md:w-[120px]">배포</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>Lotto, crossfit 파운드 계산기 원페이지 사이트 배포 및 운영 경험</li>
-                                <li>SEO에 관한 공부, 카카오 에드핏을 통한 수익 창출 경험</li>
+                                <li>Lotto, crossfit 파운드 계산기 원페이지 사이트 배포 및 운영 경험이 있습니다.</li>
+                                <li>SEO에 관한 공부를 해서 카카오 에드핏을 통한 수익 창출 경험이 있습니다.</li>
                             </ul>
                         </li>
                     </ul>
