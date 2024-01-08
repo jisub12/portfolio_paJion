@@ -92,7 +92,7 @@ export default function BounceDEX() {
                     <ReactPlayer url={dexVideo} playing={true} controls={true} />
                     <br />
                     <br />
-                    <h1 className="font-bold text-xl">진행하며 어려웠던 부분 & 느낀점</h1>
+                    {/* <h1 className="font-bold text-xl">진행하며 어려웠던 부분 & 느낀점</h1>
                     <div className="w-full h-[536px]">
                         <Swiper
                             slidesPerView={1}
@@ -146,7 +146,7 @@ export default function BounceDEX() {
                                 </div>
                             </SwiperSlide>
                         </Swiper>
-                    </div>
+                    </div> */}
                     <br />
                     <br />
                     <h2 className="font-bold text-xl">또 다른 관련 프로젝트 시행착오 기록 링크</h2>

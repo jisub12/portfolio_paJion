@@ -9,6 +9,8 @@ import BounceDEX from './bounceDEX'
 import Steam100 from './steam100'
 import SpaceGame from './spaceGame'
 import Market from './market'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Pagination, Navigation } from 'swiper/modules'
 
 const Projects = () => {
     const [isShowingModal, toggleModal] = useModal()
@@ -23,7 +25,7 @@ const Projects = () => {
                 {/* 첫 번째 프로젝트 */}
                 <li className="flex flex-col gap-[32px] md:flex-row">
                     <div className="w-full md:w-[420px] ">
-                        <img src={process.env.PUBLIC_URL + '/spaceddong.png'} className="w-full" alt="spaceGame" />
+                        <img src={process.env.PUBLIC_URL + '/spaceddong.gif'} className="w-full" alt="spaceGame" />
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
                             <li className="text-[16px]">개인 프로젝트</li>
                             <li className="text-stone-500">2023. 04. 05 ~ 현재</li>
@@ -60,9 +62,12 @@ const Projects = () => {
 
                         <h3 className="py-[16px] text-[16px] font-bold">열정에서 현실로</h3>
                         <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
-                            <li>1) 학원 다니는 동안 팀 프로젝트 기간 제외하고 매일 2시간 이상씩 주말에도 꾸준히 개발했습니다.</li>
+                            <li>
+                                1) 학원 다니는 동안 팀 프로젝트 기간 제외하고 매일 2시간 이상씩 주말에도 꾸준히
+                                개발했습니다.
+                            </li>
                             <li>2) 자바스크립트말고는 아무것도 배우지 못한 상태에서 시작했습니다.</li>
-                            <li>3) 그래서 Javascript와 canvas만으로 하드코딩했습니다.</li>
+                            <li>3) 그래서 맨땅에 헤딩하는 심정으로 Javascript와 canvas만으로 하드코딩했습니다.</li>
                             <li>4) 자세한 사항은 상세보기를 눌러주시면 감사하겠습니다.</li>
                         </ul>
                     </div>
@@ -133,6 +138,61 @@ const Projects = () => {
                                 구현함
                             </li>
                         </ul>
+                        <h3 className="py-[16px] text-[16px] font-bold">진행하며 어려웠던 부분 & 회고</h3>
+                        <div className="w-[600px] h-[450px] position: relative z-0">
+                            <Swiper
+                                slidesPerView={1}
+                                spaceBetween={30}
+                                loop={true}
+                                pagination={{
+                                    clickable: true,
+                                }}
+                                navigation={true}
+                                modules={[Pagination, Navigation]}
+                                className="mySwiper"
+                            >
+                                <SwiperSlide>
+                                    <div className="h-[70%]">
+                                        <img src={process.env.PUBLIC_URL + '/DEX1.png'} className="" alt="" />
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="h-[90%]">
+                                        <img src={process.env.PUBLIC_URL + '/DEX2.png'} alt="" />
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="h-[70%]">
+                                        <img src={process.env.PUBLIC_URL + '/DEX3.png'} alt="" />
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="h-[90%]">
+                                        <img src={process.env.PUBLIC_URL + '/DEX4.png'} alt="" />
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="h-[100%]">
+                                        <img src={process.env.PUBLIC_URL + '/DEX5.png'} alt="" />
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="h-[90%]">
+                                        <img src={process.env.PUBLIC_URL + '/DEX6.png'} alt="" />
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="h-[90%]">
+                                        <img src={process.env.PUBLIC_URL + '/DEX7.png'} alt="" />
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="h-[70%]">
+                                        <img src={process.env.PUBLIC_URL + '/DEX8.png'} alt="" />
+                                    </div>
+                                </SwiperSlide>
+                            </Swiper>
+                        </div>
                     </div>
                 </li>
 
@@ -196,6 +256,61 @@ const Projects = () => {
                             </li>
                             <li>다국어 지원을 위한 국제화(i18n)를 통합하여 앱의 접근성 및 사용자 기반을 확대함</li>
                         </ul>
+                        <h3 className="py-[16px] text-[16px] font-bold">진행하며 어려웠던 부분 & 회고</h3>
+                        <div className="w-[600px] h-[450px] position: relative z-0">
+                            <Swiper
+                                slidesPerView={1}
+                                spaceBetween={30}
+                                loop={true}
+                                pagination={{
+                                    clickable: true,
+                                }}
+                                navigation={true}
+                                modules={[Pagination, Navigation]}
+                                className="mySwiper"
+                            >
+                                <SwiperSlide>
+                                    <div className="h-[80%]">
+                                        <img src={process.env.PUBLIC_URL + '/Steam1001.png'} className="" alt="" />
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="h-[90%]">
+                                        <img src={process.env.PUBLIC_URL + '/Steam1002.png'} className="" alt="" />
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="h-[70%]">
+                                        <img src={process.env.PUBLIC_URL + '/Steam1003.png'} className="" alt="" />
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="h-[80%]">
+                                        <img src={process.env.PUBLIC_URL + '/Steam1004.png'} className="" alt="" />
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="h-[80%]">
+                                        <img src={process.env.PUBLIC_URL + '/Steam1005.png'} className="" alt="" />
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="h-[80%]">
+                                        <img src={process.env.PUBLIC_URL + '/Steam1006.png'} className="" alt="" />
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="h-[90%]">
+                                        <img src={process.env.PUBLIC_URL + '/Steam1007.png'} className="" alt="" />
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="h-[80%]">
+                                        <img src={process.env.PUBLIC_URL + '/Steam1008.png'} className="" alt="" />
+                                    </div>
+                                </SwiperSlide>
+                            </Swiper>
+                        </div>
                     </div>
                 </li>
                 {/* 세 번째 프로젝트 */}

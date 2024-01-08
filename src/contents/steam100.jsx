@@ -46,7 +46,7 @@ export default function Steam100() {
                     <br />
                     <br />
                     <h2 className="font-bold text-xl">개발 과정(내가 맡은 부분)</h2>
-                    <div className='text-[15px]'>
+                    <div className="text-[15px]">
                         <p>
                             - React와 Node.js를 깊이 있게 학습하고, 수업에서 배운 내용을 복습하여 기술 숙련도 향상에
                             중점을 두었음
@@ -76,7 +76,7 @@ export default function Steam100() {
                     <br />
                     <br />
                     <h2 className="font-bold text-xl">학습 내용</h2>
-                    <div className='text-[15px]'>
+                    <div className="text-[15px]">
                         <p>- 초기에 디렉터리 구조 설정에 정성을 더 쏟아야 추후 팀 작업이 편해진다는 점</p>
                         <p>- styled-components 숙련도</p>
                         <p>- 게시판 CRUD 로직 개념</p>
@@ -90,7 +90,7 @@ export default function Steam100() {
                     <ReactPlayer url={steam100VOD} playing={true} controls={true} />
                     <br />
                     <br />
-                    <h1 className="font-bold text-xl">진행하며 어려웠던 부분 & 느낀점</h1>
+                    {/* <h1 className="font-bold text-xl">진행하며 어려웠던 부분 & 느낀점</h1>
                     <div className="w-full h-[536px]">
                         <Swiper
                             slidesPerView={1}
@@ -104,28 +104,47 @@ export default function Steam100() {
                             className="mySwiper"
                         >
                             <SwiperSlide>
-                                <div className="h-full"><img src={process.env.PUBLIC_URL + '/Steam1001.png'} className=''  alt="" /></div>
+                                <div className="h-[80%]">
+                                    <img src={process.env.PUBLIC_URL + '/Steam1001.png'} className="" alt="" />
+                                </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="h-full"><img src={process.env.PUBLIC_URL + '/Steam1002.png'} className=''  alt="" /></div>
+                                <div className="h-[80%]">
+                                    <img src={process.env.PUBLIC_URL + '/Steam1002.png'} className="" alt="" />
+                                </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="h-full"><img src={process.env.PUBLIC_URL + '/Steam1003.png'} className=''  alt="" /></div>
+                                <div className="h-[80%]">
+                                    <img src={process.env.PUBLIC_URL + '/Steam1003.png'} className="" alt="" />
+                                </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="h-full"><img src={process.env.PUBLIC_URL + '/Steam1004.png'} className=''  alt="" /></div>
+                                <div className="h-[80%]">
+                                    <img src={process.env.PUBLIC_URL + '/Steam1004.png'} className="" alt="" />
+                                </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="h-full"><img src={process.env.PUBLIC_URL + '/Steam1005.png'} className=''  alt="" /></div>
+                                <div className="h-[80%]">
+                                    <img src={process.env.PUBLIC_URL + '/Steam1005.png'} className="" alt="" />
+                                </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="h-full"><img src={process.env.PUBLIC_URL + '/Steam1006.png'} className=''  alt="" /></div>
+                                <div className="h-[80%]">
+                                    <img src={process.env.PUBLIC_URL + '/Steam1006.png'} className="" alt="" />
+                                </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="h-full"><img src={process.env.PUBLIC_URL + '/Steam1007.png'} className=''  alt="" /></div>
+                                <div className="h-[80%]">
+                                    <img src={process.env.PUBLIC_URL + '/Steam1007.png'} className="" alt="" />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="h-[80%]">
+                                    <img src={process.env.PUBLIC_URL + '/Steam1008.png'} className="" alt="" />
+                                </div>
                             </SwiperSlide>
                         </Swiper>
-                    </div>
+                    </div> */}
                     <br />
                     <br />
                     <h2 className="font-bold text-xl">또 다른 관련 프로젝트 시행착오 기록 링크</h2>

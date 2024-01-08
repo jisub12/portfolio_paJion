@@ -108,7 +108,8 @@ const Skills = () => {
                                 <span className="md:w-[120px]">Express</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>채워넣겠습니다..</li>
+                                <li>API를 가져오는 방법을 알고 있습니다.</li>
+                                <li>API를 가져오는 방법을 알고 있습니다.</li>
                             </ul>
                         </li>
                     </ul>
