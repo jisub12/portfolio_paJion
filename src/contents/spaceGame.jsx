@@ -222,7 +222,7 @@ export default function SpaceGame() {
                     <br />
                     <a
                         target="_blink"
-                        href="https://github.com/jisub12/SpaceDDongGame"
+                        href="http://blockchaingame.site/"
                         className="flex items-center gap-[5px] text-slate-600 mr-[20px]"
                     >
                         - 우주 똥 피하기 게임하러 가기 (Click)
