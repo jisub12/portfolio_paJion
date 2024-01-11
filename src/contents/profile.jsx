@@ -52,7 +52,7 @@ const Profile = () => {
                     황지섭 <span className="text-[16px] text-slate-400 font-normal">paJion</span>
                 </Hero>
                 <p className="text-slate-700 pt-[5px] md:text-[24px] md:pt-[10px] text-[16px]">
-                    꾸준함으로 세계 1등 블록체인 개발자
+                    꾸준함 세계 1등 블록체인 개발자
                 </p>
                 <p className="flex flex-col text-[16px] items-left pt-[7px] md:pt-[5px] md:text-[14px]">
                     <a
