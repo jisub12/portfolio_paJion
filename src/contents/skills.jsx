@@ -71,10 +71,8 @@ const Skills = () => {
                                 <span className="md:w-[120px]">Remix</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>라이브러리를 왜 사용하는 지에 대해 깨닫게 되었습니다.</li>
-                                <li>Remix로만 모든 테스트를 진행하는 것은 한계가 있다는 것을 깨닫게 되었습니다.</li>
                                 <li>Remix의 장점과 단점에 대해 알고 있습니다.</li>
-                                {/* <li>질문 받고 싶은 것 위주로 적자.. 공부해서 최대한 많이 채워넣어보자..</li> */}
+                                <li>왜 Remix로만 컨트랙트 테스트를 하지 않는지에 대해 알고 있습니다.</li>
                             </ul>
                         </li>
                         {/* <li className="flex flex-col gap-[8px] md:gap-[32px] md:flex-row items-baseline">
@@ -101,9 +99,8 @@ const Skills = () => {
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
                                 <li>React의 장점에 대해 이해하고 있습니다.</li>
-                                <li>React 디렉토리 구조를 설계해본 경험이 있습니다.</li>
                                 <li>React에 web3, contract를 가져와 Staking기능을 화면에 입혀본 경험이 있습니다.</li>
-                                <li>React에서 상태관리의 방식은 어떤 것들이 있고 각각의 장단점이 어떤것인지 알고 있습니다.</li>
+                                <li>React에서 상태관리 종류에 대해 알고 적용해본 경험이 있습니다.</li>
                             </ul>
                         </li>
                     </ul>
