@@ -119,14 +119,12 @@ const Projects = () => {
 
                         <h3 className="py-[16px] text-[16px] font-bold">주요 업무</h3>
                         <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
-                            <li>탈주자들의 리워드를 현재 홀더들에게 재분배하는 스테이킹 메커니즘을 설계하고 구현함</li>
+                            <li>탈주자들의 리워드를 현재 홀더들에게 재분배하는 스테이킹 메커니즘을 제안, 설계하고 구현</li>
                             <li>
-                                컨트랙트의 보안 및 소유권 관리 기능을 강화를 위해 OpenZeppelin 라이브러리의 Ownable과
-                                ReentrancyGuard를 활용
+                                OpenZeppelin 라이브러리의 Ownable과 ReentrancyGuard를 활용하여 컨트랙트의 보안 및 소유권 관리 기능을 강화
                             </li>
                             <li>
-                                컨트랙트의 구조와 로직을 확장성을 고려하여 설계함으로써 미래 요구사항의 변화에 유연하게
-                                대응할 수 있도록 함(Staking Pool ID)
+                                오직 1개의 pool만을 위해 설계한 것이 아닌 pool마다 id를 주게 하여 추후 다른 Staking Pool도 추가할 수 있게 설계 및 구현
                             </li>
                             <li>
                                 React Query 라이브러리의 useQuery와 useQueryClient를 사용하여 스테이킹 관련 데이터를
@@ -355,8 +353,7 @@ const Projects = () => {
                         <h3 className="py-[16px] text-[16px] font-bold">주요 업무</h3>
                         <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
                             <li>
-                                AWS S3를 활용해 다중 이미지 호스팅 및 관리 시스템을 구축, 다양한 이미지 리소스를
-                                효율적으로 처리함
+                                AWS S3를 활용해 최대 1개만 올라가던 이미지를 용량만 허락한다면 5개이상 다중으로 올려지게 개선
                             </li>
                             <li>
                                 사용자 경험을 최우선으로 고려하여 My Page 및 Main Page를 설계하고 구현, 직관적이고

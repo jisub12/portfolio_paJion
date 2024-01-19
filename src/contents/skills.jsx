@@ -141,7 +141,7 @@ const Skills = () => {
                                     AWS EC2를 활용해 Ubuntu로 Lotto 추첨기, crossfit 파운드 계산기를 원페이지 사이트로
                                     배포하여 5개월 간 운영해 본 경험이 있습니다.
                                 </li>
-                                <li>SEO에 관해 독학을 해서 카카오 에드핏을 통해 수익을 창출해 본 경험이 있습니다.(Sitemap, robots.txt, html의 meta부분 설정)</li>
+                                <li>SEO에 관해 독학을 해서 카카오 에드핏을 통해 50만원 정도의 수익을 창출해 본 경험이 있습니다.(Sitemap, robots.txt, html의 meta부분 설정)</li>
                                 <li>Nginx를 사용해서 리버스 프록시를 설정하는 방법에 대해 알고 있습니다.</li>
                                 <li>http를 https로 변경하는 이유와 적용 방법에 대해 알고 있습니다.</li>
                             </ul>
