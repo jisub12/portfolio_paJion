@@ -119,22 +119,21 @@ const Projects = () => {
 
                         <h3 className="py-[16px] text-[16px] font-bold">주요 업무</h3>
                         <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
-                            <li>탈주자들의 리워드를 현재 홀더들에게 재분배하는 스테이킹 메커니즘을 제안, 설계하고 구현</li>
                             <li>
-                                OpenZeppelin 라이브러리의 Ownable과 ReentrancyGuard를 활용하여 컨트랙트의 보안 및 소유권 관리 기능을 강화
+                                탈주자들의 리워드를 현재 홀더들에게 재분배하는 스테이킹 메커니즘을 제안, 설계하고
+                                구현(Contract)
                             </li>
                             <li>
-                                오직 1개의 pool만을 위해 설계한 것이 아닌 pool마다 id를 주게 하여 추후 다른 Staking Pool도 추가할 수 있게 설계 및 구현
+                                컨트랙트의 보안 및 소유권 관리 기능을 강화하기 위해 OpenZeppelin 라이브러리의 Ownable과
+                                ReentrancyGuard를 활용(Contract)
                             </li>
+                            <li>추후 다른 Staking Pool도 추가할 수 있게 설계 및 구현(Contract)</li>
                             <li>
-                                React Query 라이브러리의 useQuery와 useQueryClient를 사용하여 스테이킹 관련 데이터를
-                                비동기적으로 가져오고 캐싱함
+                                useQuery와 useQueryClient를 사용하여 스테이킹 관련 데이터를 비동기적으로 가져오고
+                                캐싱(FrontEnd)
                             </li>
-                            <li>스마트 컨트랙트의 이벤트를 구독하여 데이터를 실시간으로 관리함</li>
-                            <li>
-                                사용자의 검색어 입력에 따라 결과를 동적으로 필터링하고 표시하는 커스텀 훅 SerchHook을
-                                구현함
-                            </li>
+                            <li>스마트 컨트랙트의 이벤트를 구독 기능 적용(FrontEnd)</li>
+                            <li>커스텀 훅 SerchHook(검색기능) 구현 (FrontEnd)</li>
                         </ul>
                         <h3 className="py-[16px] text-[16px] font-bold">진행하며 어려웠던 부분 & 회고</h3>
                         <div className="w-[600px] h-[450px] position: relative z-0">
@@ -234,25 +233,12 @@ const Projects = () => {
 
                         <h3 className="py-[16px] text-[16px] font-bold">주요 업무</h3>
                         <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
-                            <li>
-                                전체 디렉터리 구조와 환경을 설계하고 설정하여, 유지보수가 용이한 코드베이스를 확립함
-                            </li>
-                            <li>
-                                Main Page, Admin Page, Board Page 등 주요 페이지를 개발하여 깔끔하고 사용자 친화적인
-                                UI/UX를 구현함
-                            </li>
-                            <li>
-                                게시판의 전체 CRUD (생성, 읽기, 수정, 삭제) 기능을 구현하여 앱의 상호작용 기능을 강화함
-                            </li>
-                            <li>
-                                중첩된 댓글 시스템을 개발하여 사용자들이 댓글과 대댓글을 달 수 있게 하여 사용자 참여도를
-                                증가시킴
-                            </li>
-                            <li>
-                                ThemeProvider 및 useContext 훅을 활용하여 다크 모드 기능을 구현하고 다양한 조명 조건에서
-                                사용자 UI 경험을 개선함
-                            </li>
-                            <li>다국어 지원을 위한 국제화(i18n)를 통합하여 앱의 접근성 및 사용자 기반을 확대함</li>
+                            <li>전체 디렉터리 구조 설계 및 환경 설정</li>
+                            <li>Main Page, Admin Page, Board Page 작성</li>
+                            <li>게시판의 전체 CRUD 기능 구현</li>
+                            <li>댓글, 대댓글 기능 구현</li>
+                            <li>ThemeProvider 및 useContext 훅을 활용하여 다크 모드 기능 구현</li>
+                            <li>i18n을 활용하여 다국어 기능 적용</li>
                         </ul>
                         <h3 className="py-[16px] text-[16px] font-bold">진행하며 어려웠던 부분 & 회고</h3>
                         <div className="w-[600px] h-[450px] position: relative z-0">
@@ -352,18 +338,10 @@ const Projects = () => {
 
                         <h3 className="py-[16px] text-[16px] font-bold">주요 업무</h3>
                         <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
-                            <li>
-                                AWS S3를 활용해 최대 1개만 올라가던 이미지를 용량만 허락한다면 5개이상 다중으로 올려지게 개선
-                            </li>
-                            <li>
-                                사용자 경험을 최우선으로 고려하여 My Page 및 Main Page를 설계하고 구현, 직관적이고
-                                매력적인 사용자 인터페이스 제공
-                            </li>
-                            <li>정규식을 통한 로그인 및 회원가입 기능을 구현하여 사용자 인증 시스템을 강화함</li>
-                            <li>
-                                프로젝트 전체에 걸친 CSS 스타일링을 통해 일관되고 모던한 디자인 언어를 구현,
-                                사용자들에게 더욱 매력적인 UI 경험 제공
-                            </li>
+                            <li>AWS S3를 활용해 1개씩만 올라가던 이미지를 다중으로 업로드 될 수 있도록 개선</li>
+                            <li>My Page, Main Page 구현</li>
+                            <li>정규식을 통한 로그인 및 회원가입 기능 구현</li>
+                            <li>전체 CSS 담당</li>
                         </ul>
                     </div>
                 </li>
