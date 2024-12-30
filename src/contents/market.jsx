@@ -43,7 +43,7 @@ export default function Market() {
                     <br />
                     <br />
                     <h2 className="font-bold text-xl">개발 과정(내가 맡은 부분)</h2>
-                    <div className='text-[15px]'>
+                    <div className="text-[15px]">
                         <p>- 데이터 플로우 다이어그램 설정에 관한 회의에 참여하여 시스템 설계에 대한 이해를 도모함</p>
                         <p>- 페이지 별로 역할 배분(Main, Mypage, SignUp & Login, 전체 CSS 담당)</p>
                         <p>- 지역 별로 회원 가입 할 수 있게 구현함</p>
@@ -53,8 +53,6 @@ export default function Market() {
                             - 게시판에 AWS S3를 활용하여 이미지는 인터넷에 업로드가 되고 DB에는 링크만 저장되어 들어갈
                             수 있게 구현
                         </p>
-                        <p>- 좋아요와 조회수를 볼 수 있으며 동네별로도 표시되고 검색 할 수 있게 구현</p>
-                        <p>- 댓글과 대댓글을 달 수 있게 하였으며 중고장터(전체)와 동네장터, 통계장터로 구분함</p>
                     </div>
                     <br />
                     <br />
@@ -124,7 +122,7 @@ export default function Market() {
                         target="_blink"
                         href="https://blog.naver.com/jisub44/223126780667"
                         className="flex items-center gap-[5px] text-slate-600 mr-[20px]"
-                    > 
+                    >
                         - 자기 게시물만 보이게 하기 안된 이유 (Click)
                     </a>
                     <br />
