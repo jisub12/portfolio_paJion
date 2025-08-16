@@ -51,9 +51,9 @@ const Profile = () => {
                 <Hero>
                     황지섭 <span className="text-[16px] text-slate-400 font-normal">paJion</span>
                 </Hero>
-                <p className="text-slate-700 pt-[5px] md:text-[24px] md:pt-[10px] text-[16px]">
+                {/* <p className="text-slate-700 pt-[5px] md:text-[24px] md:pt-[10px] text-[16px]">
                     꾸준함 세계 1등 풀스택/블록체인 개발자
-                </p>
+                </p> */}
                 <p className="flex flex-col text-[16px] items-left pt-[7px] md:pt-[5px] md:text-[14px]">
                     <a
                         target="_blink"
@@ -79,14 +79,14 @@ const Profile = () => {
                         <IoLogoGithub />
                         https://github.com/jisub12
                     </a>
-                    <a
+                    {/* <a
                         target="_blink"
                         href="https://blog.naver.com/jisub44"
                         className="flex items-center gap-[5px] text-slate-600"
                     >
                         <FaBlogger />
                         https://blog.naver.com/jisub44
-                    </a>
+                    </a> */}
                 </p>
             </div>
         </div>
